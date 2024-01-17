@@ -1,0 +1,280 @@
+@media (min-width:1200px){
+	/*header section*/
+.head-logo{
+	width:30%;
+}
+.navbar{
+	width:50%;
+	display:block;
+}
+.head-btn{
+	width:15%;
+}
+.nav-bar-btn{
+	position:absolute;
+	right:0;
+	font-size:20px;
+	opacity:0;
+}
+.head-row{
+	justify-content:space-between;
+}
+.nav-bar-btn-menu {
+	border:1px solid #fff;
+	box-shadow:0 0 3px;
+	padding:20px;
+	background-color:#fff;
+	width:100%;
+	transition: 0.3s;
+	opacity:0;
+}
+.navbar ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+	font-size:17px;
+	font-weight:500;
+}
+
+	/*banner section*/
+.banner-col{
+	width:50%;
+}
+.banner-title{
+	text-align:left;
+}
+.banner-title h1{
+	font-size:7vmin;
+	padding:10px 0;
+}
+.banner-title h2{
+	font-size:3.7vmin;
+	padding:10px 0 30px;
+	font-weight:500;
+}
+/*about section*/
+.abt-color{
+	height:auto;
+}
+.abt-row1{
+	padding:20px;
+}
+.abt-col1{
+	width:50%;
+	padding:10px;
+}
+.abt-col2{
+	width:50%;
+}
+.abt-col1 h2{
+	font-size:40px;
+	font-weight:700;
+	font-family: "Raleway", sans-serif;
+	padding:30px 20px 10px 0;
+	text-align:left;
+}
+.abt-col1 p{
+	font-size:17px;
+	font-family: "Raleway", sans-serif;
+	padding:20px 9rem 30px 0;
+	text-align:left;
+}
+.abt-col1 button{
+	font-size:15px;
+	color:#fff;
+	background-color:#000;
+	border:2px solid #e03a3c;
+	text-transform:uppercase;
+	padding:10px 25px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.abt-col-btn{
+	text-align:left;
+}
+.abt-col2 p{
+	font-size:11px;
+	color:#848484;
+	padding:20px 0px ;
+}
+/*about box*/
+.abt-boxes-col{
+	width:25%;
+	padding:20px 15px ;
+}
+.abt-boxes-box{
+	padding: 20px 17px;
+	box-shadow:0 0 2px;
+	
+}
+.abt-boxes-box h1{
+	font-size:5vmin;
+	padding:10px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.abt-boxes-box-emoji{
+	position:absolute;
+	top:-15%;
+	right:40%;
+	font-size:25px;
+	padding:10px 11px;
+	border-radius:50%;
+	background-color:#fff;
+	color: #e03a3c;
+	box-shadow:0 0 2px #000;
+	
+}
+.abt-boxes-box2 h4{
+	font-family: "Raleway", sans-serif;
+	font-size:22px;	
+	font-weight:500;
+	display:flex;
+	align-items:center;
+	padding:18px 0;
+	opacity:1;
+}
+.abt-boxes-box2{
+	padding:20px 18px;
+	border:1px solid #000;
+}
+.abt-boxes-box2:hover{
+	background-color:#e03a3c;
+	color:#fff;
+}
+.abt-boxes-box2-icon{
+	padding-right:20px;
+	padding:10px;
+	font-size:27px;
+	border:none;	
+}
+.abt-boxes-col2{
+	padding:20px;
+}
+.abt-boxes-col3{
+	width:50%;
+	padding:10px;
+}
+#col3-second, #col3-fourth, #col3-sixth, #col3-eight{
+	order:2;
+}
+#col3-first, #col3-third, #col3-fifth, #col3-seventh {
+	order:1;
+}
+/*service section*/
+.service-col{
+	width:50%;
+	padding:10px 10px 10px 0;
+}
+.service-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-35%;
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #e03a3c;
+	
+}
+/*portfolio*/
+.Portfolio-col{
+	width:33.33%;
+	padding:10px;
+}
+.Portfolio-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-35%;
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #e03a3c;
+}
+/*testimonial*/
+.testimonal-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-35%;
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #e03a3c;
+}
+
+/* price section*/
+.price-col{
+	width:33.33%;
+	padding:30px 10px;
+}
+.price-title h1::after{
+		content: "";
+    position: absolute;
+	left:48%;
+	bottom:-32%;
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #e03a3c;	
+}
+/*FAQ section*/
+.faq-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-30%;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #e03a3c;	
+}
+/*TEAM section*/
+.team-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-30%;
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: #e03a3c;	
+}
+.team-col{
+	width:25%;
+	padding:10px 20px 10px 10px;
+}
+/*contact section*/
+.cont-row{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.cont-col{
+	width:50%;
+	padding:5px;
+	margin: 10px 0;
+}
+.cont-title h1::after{
+	content: "";
+    position: absolute;
+	left:48%;
+	bottom:-30%;
+    display: block;
+    width: 42px;
+    height: 3px;
+    background: #e03a3c; 
+ }
+  /*footer*/
+ .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+	color:#fff;
+	width:25%;
+}
+.foot-2{
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+}
