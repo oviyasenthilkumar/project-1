@@ -99,12 +99,12 @@ header{
 	position:absolute;
 	top:60px;
 	transition:0.3s;
-	opacity:0;
+	visibility:hidden;
 }
 .dropdown-menu:hover .dropdown{
 	position:absolute;
 	top:40px;
-	opacity:1;
+	visibility:visible;
 }
 .deepdropdown-menu{
 	position:relative;
@@ -114,11 +114,11 @@ header{
 	left:160px;	
 	top:30px;
 	transition:0.3s;
-	opacity:0;
+	visibility:hidden;
 }
 .deepdropdown-menu:hover .deepdropdown{
 	left:190px;	
-	opacity:1;
+	visibility:visible;
 }
 .nav-bar-btn{
 	position:relative;
